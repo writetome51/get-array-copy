@@ -11,4 +11,12 @@ else console.log('test 1 failed');
 
 
 // Test 2: should trigger error:
-getCopy({});
+let errorTriggered = false;
+try{
+	getCopy({});
+}
+catch (e) {
+	errorTriggered = true;
+}
+if (errorTriggered) console.log('test 2 passed');
+else console.log('test 2 failed');
