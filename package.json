@@ -15,6 +15,7 @@
   ],
   "author": "Steve Thompson",
   "license": "MIT",
+  "homepage": "https://github.com/writetome51/array-get-copy#readme",
   "devDependencies": {
     "@writetome51/arrays-match": "~1.0.5"
   },
