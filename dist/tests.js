@@ -1,18 +1,16 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var index_1 = require("./index");
-var arr = [1, 2, 3, 4, 5];
+import { getArrayCopy } from './index';
+let arr = [1, 2, 3, 4, 5];
 // Test 1: make sure copy is not linked by reference to original array:
-var copy = index_1.getCopy(arr);
+let copy = getArrayCopy(arr);
 copy.length = 2;
 if (arr.length === 5)
     console.log('test 1 passed');
 else
     console.log('test 1 failed');
 // Test 2: should trigger error:
-var errorTriggered = false;
+let errorTriggered = false;
 try {
-    index_1.getCopy({});
+    getArrayCopy({});
 }
 catch (e) {
     errorTriggered = true;
