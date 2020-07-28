@@ -14,10 +14,10 @@ console.log(arr);
 ```
 
 ## Installation
-`npm i  @writetome51/array-get-copy`
+`npm i  @writetome51/get-array-copy`
 
 
 ## Loading
 ```js
-import {getArrayCopy} from '@writetome51/array-get-copy';
+import {getArrayCopy} from '@writetome51/get-array-copy';
 ```

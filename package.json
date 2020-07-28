@@ -15,7 +15,6 @@
   "homepage": "https://github.com/writetome51/array-get-copy#readme",
   "devDependencies": {},
   "dependencies": {
-    "@writetome51/array-get-merged-arrays": "^2.0.0",
     "error-if-not-array": "^2.0.0"
   }
 }
